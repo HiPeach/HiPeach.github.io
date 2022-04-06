@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>科普 | 这九个键的用法，你知道吗？</title>
+      <link href="/blog/keyboard/"/>
+      <url>/blog/keyboard/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>如果你的键盘是104、108键的全键盘配列，或是将数字区阉割掉的97键配列<br>应该的都十分熟悉键盘中间的九个键，它们就是以Delete为代表的<strong>“键盘吃灰区”</strong><br>如果去掉人尽皆知的Delete，其它八个键的用法，你又知道的多少呢？<br><em>我敢打赌这八个键你看的次数比用的次数多多了</em><br><em>看完这篇文章你还不懂就来DDOS这个网站</em><br>好，让我们进入正题</p><hr><h3 id="PrintScreenSysrq-PrtSc"><a href="#PrintScreenSysrq-PrtSc" class="headerlink" title="PrintScreenSysrq [PrtSc]"></a><strong>PrintScreenSysrq [PrtSc]</strong></h3><p>这一位其实比较好理解，就是截屏键<br>如果按下它，不会有任何反应，会截下你的整个屏幕<br>需要使用Ctrl+V粘贴在文档或聊天栏中<br>适合快速截图，除此之外……当然没啥卵用！<br>日常截图建议使用快捷键<strong>Windows+Shift+S</strong><br>功能相对较多一点，起码也有个UI…</p><h3 id="ScrollLock-ScrLk"><a href="#ScrollLock-ScrLk" class="headerlink" title="ScrollLock [ScrLk]"></a><strong>ScrollLock [ScrLk]</strong></h3><p>如果你的键盘有状态指示灯，那么这就是键盘三大<del>恶霸</del>Lock之一<br>你可以尝试按下它，看着指示灯闪来闪去，<del>你可能会意识到自己是个傻逼</del><br>目前，这玩意唯一已知的正常用途<br>就是在Excel中，选定某个单元格后按下它<br>使用Page Up Page Down翻页时<br>单元格选定区域不会发生移动</p><h3 id="PauseBreak-Pause"><a href="#PauseBreak-Pause" class="headerlink" title="PauseBreak [Pause]"></a><strong>PauseBreak [Pause]</strong></h3><p>如果说前两位还有点用的话，那这位我愿称之为<br><strong>键盘上最没卵用的东西</strong><br>鼓掌！<br>咳咳…回归正题<br>这是中断暂停键，鬼知道有个什么鸟用啊！</p><h3 id="Insert-Ins"><a href="#Insert-Ins" class="headerlink" title="Insert [Ins]"></a><strong>Insert [Ins]</strong></h3><p>Ins嘛…<del>就是Instagram的简称啦！按一下跳到官网啦！</del><br>咳咳…其实是<strong>切换插入模式</strong>，插入模式分为[插入]和[覆盖]<br>如果你在打字的时候，往中间插入内容，新的<br>内容把旧的内容覆盖掉了<br>那大概率是误触了Insert，按一下就好了</p><h3 id="Delete-Del"><a href="#Delete-Del" class="headerlink" title="Delete [Del]"></a><strong>Delete [Del]</strong></h3><p>这应该是九个键中大家最熟悉的一个键了<br>它的功能也不必多说<em>（但我还是要说一说）</em><br>Delete与Backspace是兄弟<br>Backspace能删除光标前的内容<br>Delete则能删除光标后面的内容<br>另外，选中某个文件按Delete，可以移到回收站<br>如果选中某个文件并按下Shift+Delete，可以直接跳过垃圾中转站，永久删除该文件</p><h3 id="Home-amp-End"><a href="#Home-amp-End" class="headerlink" title="Home&amp;End"></a><strong>Home&amp;End</strong></h3><p>这两个也是兄弟，功能嘛…不能说如出一辙，只能说基本一样<br>日常使用，也只能在Word中刷刷存在感了<br>按下Home，光标移动到行首，按下End，光标移动到行尾<br>Ctrl+Home，移动到文档开始，Ctrl+End，移动到文档末尾<br>Shift+Home，选中光标前内容，Shift+End，选中光标后内容<br><em>Alt+F4，结束痛苦，不信你试试</em><br>另外，和Ctrl结合起来当做某个软件的全局快捷键也是个不错的选择<br>另另外，在网页中，Home&amp;End也能快速移动至页首与页尾</p><h3 id="Page-Up-amp-Page-Down-PgUp-amp-PgDn"><a href="#Page-Up-amp-Page-Down-PgUp-amp-PgDn" class="headerlink" title="**Page Up&amp;Page Down [PgUp&amp;PgDn]"></a>**Page Up&amp;Page Down [PgUp&amp;PgDn]</h3><p>这两个，傻子都能看得出来是一对<br>在网页中，你可以用这俩来翻页，代替鼠标中键的功能<br>现在，尝试用Page Down看完剩下的内容，并给我赞助</p><hr><p>现在，你是不是了解了这九个键的功能？<br>如果没有，<strong>请按下Home键</strong><br>如果有，那么你是否觉得它们（除了Delete）都是累赘呢？<br>这个嘛…是<del>付费内容</del>下次的内容<em>（也可能是下下次，或下下下次）</em><br><strong>如果觉得还不错的话，请考虑赞助我！</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科普 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科普 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>公告 | 网站内容征集</title>
       <link href="/blog/solicitation/"/>
       <url>/blog/solicitation/</url>
