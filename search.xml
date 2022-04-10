@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>软件 | FLV无损转换为MP4</title>
+      <link href="/blog/flv/"/>
+      <url>/blog/flv/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote><p>前言<br>如果你经常在视频网站上下载电影，就一定对FLV这个视频格式不陌生<br>FLV，全称Flash Video，这种流媒体格式是随着Flash MX的推出发展而来的视频格式<br>好处有许多，比如说体积小、加载速度快等<br>但是，也有许多不便<br>比方说没办法通过Windows自带的播放器播放<br>还有就是不能导入Adobe Premiere Pro等剪辑软件<br>这个问题确实让人比较头疼<br>如果你想把FLV格式的视频转化为更加常见的MP4视频<br>你可以尝试一下这个小工具,说不定会有意想不到的效果</p></blockquote><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>这并不是个软件，而是个工具<br>基于<strong>FFmpeg</strong>开发而成<br>工作原理也并不是像格式工厂那样转码，而是重新封装<br>FLV好比一个压缩包，现在要做的就是解压这个压缩包并提取需要的文件<br><strong>只有视频编码为AVC，音频编码为AAC才能重新封装</strong><br>你可以在支持播放FLV格式的播放软件中查看视频详情信息<br><strong>同时，软件还支持转换MKV格式的视频</strong></p><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a href="https://hipeach.cn/blog/flv/FLVtoMP4.zip" title="**直链下载**"><strong>直链下载</strong></a><br><a href="https://www.aliyundrive.com/s/cP1bbykwbbq" title="**阿里云盘**"><strong>阿里云盘</strong></a></p><h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><p>下载文件后，将文件放在<strong>包含待转换文件的文件夹</strong>里<br>将FLV&amp;MKV文件<strong>拖到Go.bat</strong><br>等待完成即可<br><strong>务必保留libs文件夹！</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>教程 | E5，从入门到入坟</title>
       <link href="/blog/e5/"/>
       <url>/blog/e5/</url>
