@@ -1,3 +1,6 @@
+http://hipeach.eu.org/about/index.html
+http://hipeach.eu.org/categories/index.html
+http://hipeach.eu.org/tags/index.html
 http://hipeach.eu.org/link/index.html
 http://hipeach.eu.org/hello-world/
 http://hipeach.eu.org/
