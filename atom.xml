@@ -6,7 +6,7 @@
   <link href="http://hipeach.eu.org/atom.xml" rel="self"/>
   
   <link href="http://hipeach.eu.org/"/>
-  <updated>2022-10-22T21:23:49.345Z</updated>
+  <updated>2022-10-23T02:38:36.398Z</updated>
   <id>http://hipeach.eu.org/</id>
   
   <author>
@@ -21,8 +21,15 @@
     <link href="http://hipeach.eu.org/hello-world/"/>
     <id>http://hipeach.eu.org/hello-world/</id>
     <published>2022-10-23T02:00:00.000Z</published>
-    <updated>2022-10-22T21:23:49.345Z</updated>
+    <updated>2022-10-23T02:38:36.398Z</updated>
     
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>如果你关注着这个博客，就会注意到最近博客<strong>曾停运近两个星期</strong><br>如果你查看过博客在萌国的ICP备案信息，就会发现<strong>这已经是博客的第三周目了</strong></p><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://icp.gov.moe/?keyword=20225432">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/icp.gov.moe/?keyword=20225432.png);"></div>        <div class="tag-link-right">            <div class="tag-link-title">查询萌国ICP备案信息</div>            <div class="tag-link-sitename">萌ICP备20225432号</div>        </div>        <i class="fa-solid fa-angle-right"></i>    </div>    </a></div><p>并且如肉眼可见，<strong>博客的文章是少之又少，各处细节也都不完善</strong>…<br>这究竟是怎么一回事？<del>小编也很想知道</del><br>让我们一起<del>走进科学</del>走进这篇文章……</p><h1 id="博客の前世今生"><a href="#博客の前世今生" class="headerlink" title="博客の前世今生"></a>博客の前世今生</h1><h2 id="『一周目』-——-梦开始的地方"><a href="#『一周目』-——-梦开始的地方" class="headerlink" title="『一周目』 —— 梦开始的地方"></a>『一周目』 —— 梦开始的地方</h2><blockquote><p>花有重开日，人无再少年.</p></blockquote><p><strong>这，是我第一次接触静态博客、Markdown、Github Pages</strong>等现在的我看起来再也基础不过的知识<br>一周目的博客，见证了我许许多多的『<strong>第一次</strong>』<br>让我不断地慢慢试错，为梦想的扬帆起航做了铺垫…<br>好，言归正传<br>『一周目』使用Hexo框架搭建，</p><h2 id="『二周目』-——-梦想扬帆起航"><a href="#『二周目』-——-梦想扬帆起航" class="headerlink" title="『二周目』 —— 梦想扬帆起航"></a>『二周目』 —— 梦想扬帆起航</h2><h2 id="『三周目』-——-前往梦想方向"><a href="#『三周目』-——-前往梦想方向" class="headerlink" title="『三周目』 —— 前往梦想方向"></a>『三周目』 —— 前往梦想方向</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;如果你关注着这个博客，就会注意到最近博客&lt;strong&gt;曾停运近两个星期&lt;/strong&gt;&lt;br&gt;如果你查看过博客在萌国的ICP备案信息，就</summary>
+      
     
     
     

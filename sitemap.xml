@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://hipeach.eu.org/hypixel/index.html</loc>
+    <loc>http://hipeach.eu.org/hello-world/</loc>
     
-    <lastmod>2022-10-22</lastmod>
+    <lastmod>2022-10-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://hipeach.eu.org/hello-world/</loc>
+    <loc>http://hipeach.eu.org/hypixel/index.html</loc>
     
     <lastmod>2022-10-22</lastmod>
     
@@ -58,7 +58,7 @@
 
   <url>
     <loc>http://hipeach.eu.org/</loc>
-    <lastmod>2022-10-22</lastmod>
+    <lastmod>2022-10-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -66,7 +66,7 @@
   
   <url>
     <loc>http://hipeach.eu.org/tags/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2022-10-22</lastmod>
+    <lastmod>2022-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -75,7 +75,7 @@
   
   <url>
     <loc>http://hipeach.eu.org/categories/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2022-10-22</lastmod>
+    <lastmod>2022-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
