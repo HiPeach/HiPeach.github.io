@@ -6,7 +6,7 @@
   <link href="http://hipeach.eu.org/atom.xml" rel="self"/>
   
   <link href="http://hipeach.eu.org/"/>
-  <updated>2022-11-03T13:35:40.124Z</updated>
+  <updated>2022-11-04T12:36:26.390Z</updated>
   <id>http://hipeach.eu.org/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://hipeach.eu.org/hexobat/"/>
+    <id>http://hipeach.eu.org/hexobat/</id>
+    <published>2022-11-04T12:35:41.724Z</published>
+    <updated>2022-11-04T12:36:26.390Z</updated>
+    
+    
+    
+    
+    <category term="杂谈" scheme="http://hipeach.eu.org/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="杂谈" scheme="http://hipeach.eu.org/tags/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
   
   <entry>
     <title>教程 | 免费申请EU.ORG域名并转入Cloudflare</title>
