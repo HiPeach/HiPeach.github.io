@@ -251,3 +251,11 @@ span.card-archive-list-count {
 #page-header::before{
   background: transparent!important;
 }
+
+/*友链美化*/
+#article-container .flink .flink-list {
+  text-align: left!important;
+}
+.flink-item-name, .flink-item-desc {
+  color: white!important;
+}
