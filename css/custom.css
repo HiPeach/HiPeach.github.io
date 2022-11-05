@@ -214,7 +214,7 @@ span.card-archive-list-count {
 /*文章页目录卡片圆角*/
 #aside-content .card-widget {
   border-radius: 20px;
-  }
+}
 
 /*版权卡片美化*/
 #post .post-copyright {
@@ -259,3 +259,4 @@ span.card-archive-list-count {
 .flink-item-name, .flink-item-desc {
   color: white!important;
 }
+
