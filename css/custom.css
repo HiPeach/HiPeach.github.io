@@ -1,0 +1,261 @@
+/* 文章页H1-H6图标样式效果 */
+h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+    -webkit-animation: ccc 1.6s linear infinite ;
+    animation: ccc 1.6s linear infinite ;
+}
+@-webkit-keyframes ccc {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(-1turn);
+        transform: rotate(-1turn)
+    }
+}
+@keyframes ccc {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(-1turn);
+        transform: rotate(-1turn)
+    }
+}
+#content-inner.layout h1::before {
+    color: #ef50a8 ;
+    margin-left: -1.55rem;
+    font-size: 1.5rem;
+    margin-top: -0.27rem;
+}
+#content-inner.layout h2::before {
+    color: #fb7061 ;
+    margin-left: -1.35rem;
+    font-size: 1.2rem;
+    margin-top: -0.15rem;
+}
+#content-inner.layout h3::before {
+    color: #ffbf00 ;
+    margin-left: -1.22rem;
+    font-size: 0.95rem;
+    margin-top: -0.09rem;
+}
+#content-inner.layout h4::before {
+    color: #a9e000 ;
+    margin-left: -1.05rem;
+    font-size: 0.8rem;
+    margin-top: -0.09rem;
+}
+#content-inner.layout h5::before {
+    color: #57c850 ;
+    margin-left: -0.9rem;
+    font-size: 0.7rem;
+    margin-top: 0.0rem;
+}
+#content-inner.layout h6::before {
+    color: #5ec1e0 ;
+    margin-left: -0.9rem;
+    font-size: 0.66rem;
+    margin-top: 0.0rem;
+}
+#content-inner.layout h1:hover, #content-inner.layout h2:hover, #content-inner.layout h3:hover, #content-inner.layout h4:hover, #content-inner.layout h5:hover, #content-inner.layout h6:hover {
+    color: #49b1f5 ;
+}
+#content-inner.layout h1:hover::before, #content-inner.layout h2:hover::before, #content-inner.layout h3:hover::before, #content-inner.layout h4:hover::before, #content-inner.layout h5:hover::before, #content-inner.layout h6:hover::before {
+    color: #49b1f5 ;
+    -webkit-animation: ccc 3.2s linear infinite ;
+    animation: ccc 3.2s linear infinite ;
+}
+/* 页面设置icon转动速度调整 */
+#rightside_config i.fas.fa-cog.fa-spin {
+    animation: fa-spin 5s linear infinite ;
+}
+/* 归档样式 */
+span.card-archive-list-count {
+    width: auto;
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 0.9;
+    font-weight: 700;
+  }
+  .card-archive-list-count-group {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a span:last-child,
+  #aside-content .card-categories ul.card-category-list > .card-category-list-item a span:last-child {
+    width: fit-content;
+    margin-left: 4px;
+  }
+  span.card-archive-list-count {
+    width: auto;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 0.9;
+    font-weight: 700;
+  }
+  .card-archive-list-date {
+    font-size: 14px;
+    opacity: 0.6;
+  }
+  li.card-archive-list-item {
+    width: 100%;
+    flex: 0 0 48%;
+  }
+  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover,
+  #aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover {
+    color: var(--anzhiyu-white);
+    background-color: var(--anzhiyu-theme);
+    box-shadow: var(--anzhiyu-shadow-theme);
+    border-radius: 8px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  @media screen and (min-width: 1300px) {
+    #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover,
+    #aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover {
+      transform: scale(1.03);
+    }
+    #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:active,
+    #aside-content .card-categories ul.card-category-list > .card-category-list-item a:active {
+      transform: scale(0.97);
+    }
+  }
+  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a,
+  #aside-content .card-categories ul.card-category-list > .card-category-list-item a {
+    border-radius: 8px;
+    margin: 4px 0;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    border: var(--style-border);
+  }
+  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a span:first-child,
+  #aside-content .card-categories ul.card-category-list > .card-category-list-item a span:first-child {
+    width: auto;
+    flex: inherit;
+  }
+  #aside-content .card-archives ul.card-archive-list,
+  #aside-content .card-categories ul.card-category-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+/*Bilibili关注圆角*/
+#card-info-btn {
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+/*底部切换按钮*/
+.layout>.recent-posts .pagination>* {
+  display: inline-block;
+  margin: 0 6px;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em;
+}
+
+/*底部圆角*/
+#pagination .page-number.current {
+    border-radius: 7px;
+}
+
+/*文章页卡片圆角*/
+.layout > div:first-child:not(.recent-posts) {
+  border-radius: 35px;
+}
+
+/*文章页信息栏美化*/
+#post-info .post-title {
+  font-weight: 600; /*字体粗细*/
+  font-size: 2.5em; /*字体大小*/
+  line-height: 2.2; /*元素高度*/
+  letter-spacing: 9px; /*字体间距*/
+}
+
+/*信息栏高度调整*/
+#page-header.post-bg {
+  height: 26rem;
+}
+
+/*Web端信息栏适配*/
+@media screen and (min-width: 421px){
+  #page-header #post-info {
+    bottom: 8rem;
+}
+}
+
+/*Wap端信息栏适配*/
+@media screen and (max-width: 420px){
+  #page-header #post-info {
+    bottom: 2rem;
+}
+}
+
+/*顶栏美化*/
+#nav .site-page {
+  font-size: 0.79em; /*字体大小*/
+  letter-spacing: 3px; /*字体间距*/
+  font-weight: 600; /*字体粗细*/
+}
+
+#nav {
+  height: 70px; /*顶栏高度调整*/
+}
+#page-header.nav-fixed #nav {
+  top: -70px; /*顶栏调整空缺补齐*/
+}
+
+/*文章页目录卡片圆角*/
+#aside-content .card-widget {
+  border-radius: 20px;
+  }
+
+/*版权卡片美化*/
+#post .post-copyright {
+  position: relative;
+  margin: 2rem 0 0.5rem;
+  padding: 1.5rem 0.8rem;
+  border: 8px solid #f6f6f6; /*卡片边框*/
+  border-radius: 20px; /*边框圆角*/
+  }
+  #post .post-copyright:before {
+  position: absolute;
+  top: -1.9rem; /*C位置*/
+  color: #49b1f540; /*C颜色*/
+  font-size: 6rem; /*C大小*/
+  }
+
+/*目录颜色圆角调整*/
+#aside-content #card-toc .toc-content .toc-link.active {
+  background: #669cbe;
+  border-radius: 5px;
+}
+
+/* 头图透明 */
+#page-header{
+  background: transparent!important;
+}
+
+/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
+#page-header.post-bg:before {
+  background-color: transparent!important;
+}
+
+/*伪类遮罩层透明*/
+#page-header::before{
+  background: transparent!important;
+}
+
+/*友链美化*/
+#article-container .flink .flink-list {
+  text-align: left!important;
+}
+.flink-item-name, .flink-item-desc {
+  color: white!important;
+}
