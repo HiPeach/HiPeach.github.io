@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://hipeach.eu.org/hypixel-unban/</loc>
+    
+    <lastmod>2022-11-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://hipeach.eu.org/euorg/</loc>
+    
+    <lastmod>2022-11-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://hipeach.eu.org/link/index.html</loc>
     
     <lastmod>2022-11-09</lastmod>
@@ -14,33 +32,6 @@
     <loc>http://hipeach.eu.org/essay/index.html</loc>
     
     <lastmod>2022-11-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://hipeach.eu.org/hexobat/</loc>
-    
-    <lastmod>2022-11-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://hipeach.eu.org/euorg/</loc>
-    
-    <lastmod>2022-11-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://hipeach.eu.org/hello-world/</loc>
-    
-    <lastmod>2022-10-29</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -85,7 +76,7 @@
 
   <url>
     <loc>http://hipeach.eu.org/</loc>
-    <lastmod>2022-11-09</lastmod>
+    <lastmod>2022-11-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -93,14 +84,7 @@
   
   <url>
     <loc>http://hipeach.eu.org/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2022-11-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://hipeach.eu.org/tags/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2022-11-09</lastmod>
+    <lastmod>2022-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -109,14 +93,7 @@
   
   <url>
     <loc>http://hipeach.eu.org/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2022-11-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://hipeach.eu.org/categories/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2022-11-09</lastmod>
+    <lastmod>2022-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
