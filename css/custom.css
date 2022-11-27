@@ -41,7 +41,7 @@
   --Jay-yellow: #c28b00;
   --Jay-yellow-op: #d99c001a;
   --Jay-orange: #e38100;
-  --Jay-fontcolor: #b8b8f1;
+  --Jay-fontcolor: rgb(133, 136, 209);
   --Jay-background: #f7f9fe;
   --Jay-reverse: #000;
   --Jay-maskbg: rgba(255, 255, 255, 0.6);
@@ -56,7 +56,7 @@
   --Jay-post-tabs-bg: #f2f5f8;
   --Jay-secondbg: transparent;
   --Jay-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.05);
-  --Jay-card-bg: #fff;
+  --Jay-card-bg: rgba(255, 255, 255, 0.9);
   --Jay-card-bg-op: var(--Jay-black-op);
   --Jay-card-bg-none: rgba(255, 255, 255, 0);
   --Jay-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
@@ -93,7 +93,7 @@
   --Jay-post-tabs-bg: #121212;
   --Jay-secondbg: transparent;
   --Jay-shadow-nav: 0 5px 20px 0px rgba(28, 28, 28, 0.4);
-  --Jay-card-bg: #1d1e22;
+  --Jay-card-bg: #1d1e22e5;
   --Jay-card-bg-op: var(--Jay-white-op);
   --Jay-card-bg-none: #1d1b2600;
   --Jay-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
