@@ -87,16 +87,29 @@ const btf = {
       const hourCount = dateDiff / hour
       const minuteCount = dateDiff / minute
 
+//      if (monthCount > 12) {
+//        result = datePost.toLocaleDateString().replace(/\//g, '-')
+//      } else if (monthCount >= 1) {
+//        result = parseInt(monthCount) + ' ' + GLOBAL_CONFIG.date_suffix.month
+//      } else if (dayCount >= 1) {
+//        result = parseInt(dayCount) + ' ' + GLOBAL_CONFIG.date_suffix.day
+//      } else if (hourCount >= 1) {
+//        result = parseInt(hourCount) + ' ' + GLOBAL_CONFIG.date_suffix.hour
+//      } else if (minuteCount >= 1) {
+//        result = parseInt(minuteCount) + ' ' + GLOBAL_CONFIG.date_suffix.min
+//      } else {
+//        result = GLOBAL_CONFIG.date_suffix.just
+//      }
       if (monthCount > 12) {
-        result = datePost.toLocaleDateString().replace(/\//g, '-')
-      } else if (monthCount >= 1) {
-        result = parseInt(monthCount) + ' ' + GLOBAL_CONFIG.date_suffix.month
+        result = datePost.toLocaleDateString()
+      } else if (dayCount >= 7) {
+        result = datePost.toLocaleDateString().substr(5)
       } else if (dayCount >= 1) {
-        result = parseInt(dayCount) + ' ' + GLOBAL_CONFIG.date_suffix.day
+        result = parseInt(dayCount) + '' + GLOBAL_CONFIG.date_suffix.day
       } else if (hourCount >= 1) {
-        result = parseInt(hourCount) + ' ' + GLOBAL_CONFIG.date_suffix.hour
+        result = '最近'
       } else if (minuteCount >= 1) {
-        result = parseInt(minuteCount) + ' ' + GLOBAL_CONFIG.date_suffix.min
+        result = '最近'
       } else {
         result = GLOBAL_CONFIG.date_suffix.just
       }

@@ -62,12 +62,18 @@ var anzhiyu = {
     return result;
   },
   changeTimeInEssay: function () {
-    document.querySelector("#bber") &&
-      document.querySelectorAll("#bber time").forEach(function (e) {
-        var t = e,
-          datetime = t.getAttribute("datetime");
-        (t.innerText = anzhiyu.diffDate(datetime, true)), (t.style.display = "inline");
-      });
+    const relativeDate = function (selector) {
+      selector.forEach(item => {
+        const $this = item
+        const timeVal = $this.getAttribute('datetime')
+        $this.innerText = btf.diffDate(timeVal, true)
+        $this.style.display = 'inline'
+      })
+    }
+
+    if (document.querySelector('#bber')) {
+      relativeDate(document.querySelectorAll('#bber time'))
+    }
   },
   reflashEssayWaterFall: function () {
     document.querySelector("#waterfall") &&
@@ -115,7 +121,6 @@ var anzhiyu = {
     }, 100);
   },
 };
-
 anzhiyu.initIndexEssay();
 anzhiyu.changeTimeInEssay();
 anzhiyu.reflashEssayWaterFall();
