@@ -57,6 +57,7 @@
   --Jay-secondbg: transparent;
   --Jay-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.05);
   --Jay-card-bg: rgba(255, 255, 255, 0.9);
+  --Jay-loading-bg: rgba(255, 255, 255);
   --Jay-card-bg-op: var(--Jay-black-op);
   --Jay-card-bg-none: rgba(255, 255, 255, 0);
   --Jay-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
@@ -94,6 +95,7 @@
   --Jay-secondbg: transparent;
   --Jay-shadow-nav: 0 5px 20px 0px rgba(28, 28, 28, 0.4);
   --Jay-card-bg: #1d1e22e5;
+  --Jay-loading-bg: rgba(30,30,30);
   --Jay-card-bg-op: var(--Jay-white-op);
   --Jay-card-bg-none: #1d1b2600;
   --Jay-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
@@ -787,4 +789,10 @@ img.footer_mini_logo:hover {
 *::selection {
   background: rgba(90,135,255);
   color: #ffffff;
+}
+
+/*加载动画*/
+.loading-img {
+  background: url(/media/avatar.jpg) no-repeat center center;
+  background-size: cover;
 }
