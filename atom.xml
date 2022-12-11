@@ -6,7 +6,7 @@
   <link href="http://hipeach.eu.org/atom.xml" rel="self"/>
   
   <link href="http://hipeach.eu.org/"/>
-  <updated>2022-11-19T07:01:56.844Z</updated>
+  <updated>2022-12-11T13:39:35.714Z</updated>
   <id>http://hipeach.eu.org/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Twikoo实装&amp;美化记录</title>
+    <link href="http://hipeach.eu.org/twikoo/"/>
+    <id>http://hipeach.eu.org/twikoo/</id>
+    <published>2022-12-10T12:00:00.000Z</published>
+    <updated>2022-12-11T13:39:35.714Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><div class="tip warning"><p>为了网站的长远发展考虑，请谨慎选择评论系统</p></div><p>本站的评论配置可谓是<strong>一波三折</strong><br>刚开始使用Github相关功能评论令我比较中意<br>先后使用了 <span class='nota' data-nota='基于 Github Issue 开发的评论系统'>Gitalk</span> 及 <span class='nota' data-nota='基于 GitHub Discussions 开发的评论系统'>Giscus</span> 评论系统<br>经过深思熟虑，决定<strong>更换至Twikoo</strong><br><strong>此文章参考官方文档，记录Twikoo实装及美化过程，可供参考</strong></p><h1 id="配置MongoDB"><a href="#配置MongoDB" class="headerlink" title="配置MongoDB"></a>配置MongoDB</h1><h2 id="创建数据库"><a href="#创建数据库" class="headerlink" title="创建数据库"></a>创建数据库</h2><p>首先，需要申请MongoDB账号<br><div class="tag link"><a class="link-card" title="注册MongoDB" href="https://www.mongodb.com/cloud/atlas/register"><div class="left"><img src="link-mongodb.jpg"/></div><div class="right"><p class="text">注册MongoDB</p><p class="url">https://www.mongodb.com/cloud/atlas/register</p></div></a></div><br>通过邮箱验证后，需要创建一个免费数据库<br><strong>此数据库将用于存放评论数据</strong><br>数据库的名称可以自定义，但是<strong>创建之后不能更改</strong><br>接着需要<strong>创建用户及密码</strong>，用于登录数据库<br><img src="account.jpg" alt="Account"><br>下方还需要<strong>指定能访问数据库的IP地址</strong><br>因为博客需要对外开放，所以我们需要<strong>开放全部IP访问</strong><br>方法很简单，添加一个 <code>0.0.0.0</code> 的IP就可以了<br><img src="ip.jpg" alt="IP"><br><strong>接受条款</strong>，完成数据库的创建</p><h2 id="获取连接字符"><a href="#获取连接字符" class="headerlink" title="获取连接字符"></a>获取连接字符</h2><p>点击数据库名称右边的 <code>Connect</code><br><strong>无法显示？刷新即可</strong><br><img src="connect.jpg" alt="Connect"><br>点击第二个 <code>Connect your application</code><br><img src="application.jpg" alt="Application"><br>复制下方显示的连接字符<br><img src="code.jpg" alt="Code"><br><strong>此连接字符中包含 <code>&lt;password&gt;</code> 字样，请替换为数据库用户的密码</strong></p><h1 id="配置Vercel"><a href="#配置Vercel" class="headerlink" title="配置Vercel"></a>配置Vercel</h1><h2 id="部署存储库"><a href="#部署存储库" class="headerlink" title="部署存储库"></a>部署存储库</h2><div class="tag link"><a class="link-card" title="登录Vercel" href="https://vercel.com/signup"><div class="left"><img src="link-vercel.jpg"/></div><div class="right"><p class="text">登录Vercel</p><p class="url">https://vercel.com/signup</p></div></a></div><p><strong>使用GitHub快速登录Vercel</strong><br><div class="tag link"><a class="link-card" title="快速部署" href="https://vercel.com/import/project?template=https://github.com/imaegoo/twikoo/tree/main/src/server/vercel-min"><div class="left"><img src="link-vercel.jpg"/></div><div class="right"><p class="text">快速部署</p><p class="url">https://vercel.com/import/project?template=https://github.com/imaegoo/twikoo/tree/main/src/server/vercel-min</p></div></a></div><br><strong>选定存储库名称</strong>，等待大功告成<br>Vercel放烟花庆祝时，说明已经部署完成</p><h2 id="配置环境变量"><a href="#配置环境变量" class="headerlink" title="配置环境变量"></a>配置环境变量</h2><p>如果不出意外，你将会看到…<br><img src="url.jpg" alt="URL"><br>不要惊慌，只是<strong>缺了一个环境变量</strong><br>进入 <code>Settings</code> - <code>Environment Variables</code><br><strong>添加环境变量 <code>MONGODB_URI</code>，值为数据库连接字符串</strong><br><strong>环境变量名称需要全部大写</strong><br><img src="environmentvariables.jpg" alt="Environmentvariables"><br>进入 <code>Deployments</code>，然后在任意一项后面点击三个点<br>点击 <code>Redeploy</code>，最后点击下面的 <code>Redeploy</code><br>等待一会，大功告成！<br><img src="ready.jpg" alt="Ready"><br><strong>复制Vercel提供的域名，此为 <code>环境ID</code></strong></p><h1 id="更改配置文件"><a href="#更改配置文件" class="headerlink" title="更改配置文件"></a>更改配置文件</h1><p>打开 <code>_config.butterfly.yml</code><br>在 <code>comments</code> - <code>use</code> 后填写 <code>Twikoo</code><br>并将<strong>环境ID</strong>填写在 <code>twikoo</code> - <code>envId</code> 后<br><strong>保存</strong><br>至此，Twikoo部署完成</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;div class=&quot;tip warning&quot;&gt;&lt;p&gt;为了网站的长远发展考虑，请谨慎选择评论系统&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;本站的评论配置可谓</summary>
+      
+    
+    
+    
+    <category term="教程" scheme="http://hipeach.eu.org/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="http://hipeach.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>教程 | Hypixel安全警报申诉</title>
